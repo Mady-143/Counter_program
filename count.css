@@ -1,0 +1,36 @@
+#num {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+    font-size: 5em;
+}
+
+#num {
+    text-shadow: 10px 10px 15px rgb(243, 188, 106);
+}
+
+.con {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(62, 218, 235);
+    border-color: rgb(16, 120, 210) ;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: rgb(16, 120, 210);
+    box-shadow: 10px 10px 5px rgb(62, 218, 235);
+}
